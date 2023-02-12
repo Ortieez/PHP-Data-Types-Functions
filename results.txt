@@ -1,0 +1,62 @@
+-----------intCheck-----------
+1 integer
+1 integer
+1 integer
+0 integer
+intCheck(): Argument #1 ($var) must be of type int, string given
+intCheck(): Argument #1 ($var) must be of type int, array given
+intCheck(): Argument #1 ($var) must be of type int, null given
+
+-----------floatCheck-----------
+1 double
+1.1 double
+1 double
+0 double
+floatCheck(): Argument #1 ($var) must be of type float, string given
+floatCheck(): Argument #1 ($var) must be of type float, array given
+floatCheck(): Argument #1 ($var) must be of type float, null given
+
+-----------boolCheck-----------
+1 boolean
+1 boolean
+1 boolean
+ boolean
+1 boolean
+boolCheck(): Argument #1 ($var) must be of type bool, array given
+boolCheck(): Argument #1 ($var) must be of type bool, null given
+
+-----------stringCheck-----------
+1 string
+1.1 string
+1 string
+ string
+string string
+stringCheck(): Argument #1 ($var) must be of type string, array given
+stringCheck(): Argument #1 ($var) must be of type string, null given
+
+-----------arrayCheck-----------
+arrayCheck(): Argument #1 ($var) must be of type array, int given
+arrayCheck(): Argument #1 ($var) must be of type array, float given
+arrayCheck(): Argument #1 ($var) must be of type array, bool given
+arrayCheck(): Argument #1 ($var) must be of type array, bool given
+arrayCheck(): Argument #1 ($var) must be of type array, string given
+Array array
+arrayCheck(): Argument #1 ($var) must be of type array, null given
+
+-----------objectCheck-----------
+objectCheck(): Argument #1 ($var) must be of type object, int given
+objectCheck(): Argument #1 ($var) must be of type object, float given
+objectCheck(): Argument #1 ($var) must be of type object, bool given
+objectCheck(): Argument #1 ($var) must be of type object, bool given
+objectCheck(): Argument #1 ($var) must be of type object, string given
+objectCheck(): Argument #1 ($var) must be of type object, array given
+objectCheck(): Argument #1 ($var) must be of type object, null given
+
+-----------callableCheck-----------
+callableCheck(): Argument #1 ($var) must be of type callable, int given
+callableCheck(): Argument #1 ($var) must be of type callable, float given
+callableCheck(): Argument #1 ($var) must be of type callable, bool given
+callableCheck(): Argument #1 ($var) must be of type callable, bool given
+callableCheck(): Argument #1 ($var) must be of type callable, string given
+callableCheck(): Argument #1 ($var) must be of type callable, array given
+callableCheck(): Argument #1 ($var) must be of type callable, null given
