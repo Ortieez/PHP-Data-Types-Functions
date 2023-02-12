@@ -15,6 +15,12 @@
 
 ## Conversion Tables
 
+- Each table has input and outpout columns.
+- Input is self explanatory.
+- Output contains 2 datas each separated by a space:
+  - The value of the output.
+  - The data type of the output.
+
 ### Conversion from other to integer
 
 | Input        | Output    |
